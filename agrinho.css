@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('fonts/JetBrainsMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 /* Reset básico */
 * {
     margin: 0;
@@ -6,7 +15,7 @@
   }
   
   body {
-    font-family: Arial, sans-serif;
+    font-family: 'JetBrains Mono', sans-serif;
     line-height: 1.6;
   }
   
@@ -17,6 +26,16 @@
     padding: 20px;
     background: #0a9621;
     color: #fff;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    padding: 20px;
+    z-index: 1000; 
+    
+  }
+
+  main {
+    margin-top: 80px; 
   }
   
   header .logo img {
@@ -37,7 +56,13 @@
     text-decoration: none;
     font-weight: bold;
   }
+
+  header nav ul li a:hover {
+    color: #222;
+  }
+
   
+
   .banner {
     position: relative;
     width: 100%;
