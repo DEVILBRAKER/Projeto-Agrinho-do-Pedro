@@ -67,14 +67,24 @@
     position: relative;
     width: 100%;
     height: 400px;
-    background: url('banner.jpg') no-repeat center center/cover;
-    color: #fff;
+    background: url('imagens/download (1).jpg') no-repeat center center/cover;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
   }
   
+  .banner-text {
+    position: absolute;
+    color: #000000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+
   .banner-text h1 {
     font-size: 3em;
     margin-bottom: 10px;
@@ -84,6 +94,10 @@
     font-size: 1.2em;
   }
   
+  main {
+    margin-top: 80px; /* Adiciona um espaço na parte superior do conteúdo principal para evitar que fique ocultado pelo cabeçalho */
+  }
+
   .intro, .highlights, .contact-form, .contact-info {
     padding: 20px;
     text-align: center;
