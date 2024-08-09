@@ -30,7 +30,7 @@ O Projeto Agrinho é uma iniciativa dedicada a promover a integração entre ár
 - **GitHub Pages:** Hospedagem do site.
 
 ## Como Acessar
-Você pode acessar o site pelo seguinte link: [Projeto Agrinho]([https://seu-usuario.github.io/Projeto-Agrinho-do-Pedro](https://devilbraker.github.io/Projeto-Agrinho-do-Pedro/))
+Você pode acessar o site pelo seguinte link: [Projeto Agrinho]([https://seu-usuario.github.io/Projeto-Agrinho-do-Pedro](https://devilbraker.github.io/Projeto-Agrinho-do-Pedro/)
 
 ## Autor
 - **Pedro Henrique**
