@@ -14,7 +14,7 @@ O Projeto Agrinho é uma iniciativa dedicada a promover a integração entre ár
 - **GitHub Pages:** Hospedagem do site.
 
 ## Como Acessar
-Você pode acessar o site pelo seguinte link:(# Projeto Agrinho: Do Campo à Cidade - Colhendo Oportunidades
+Você pode acessar o site pelo seguinte link:https://devilbraker.github.io/Projeto-Agrinho-do-Pedro/
 
 ## Descrição
 O Projeto Agrinho é uma iniciativa dedicada a promover a integração entre áreas rurais e urbanas, criando pontes que conectam a tradição do campo com as inovações da cidade. Este site foi desenvolvido com o objetivo de destacar as oportunidades de desenvolvimento econômico, social e ambiental que surgem dessa interação.
@@ -30,7 +30,7 @@ O Projeto Agrinho é uma iniciativa dedicada a promover a integração entre ár
 - **GitHub Pages:** Hospedagem do site.
 
 ## Como Acessar
-Você pode acessar o site pelo seguinte link: [Projeto Agrinho](https://seu-usuario.github.io/Projeto-Agrinho-do-Pedro)
+Você pode acessar o site pelo seguinte link: [Projeto Agrinho]([https://seu-usuario.github.io/Projeto-Agrinho-do-Pedro](https://devilbraker.github.io/Projeto-Agrinho-do-Pedro/))
 
 ## Autor
 - **Pedro Henrique**
