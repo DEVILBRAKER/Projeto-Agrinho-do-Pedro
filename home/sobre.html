@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Agrinho: Do Campo à Cidade - Colhendo Oportunidades</title>
+    <link rel="stylesheet" href="sobre.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+
+      
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Projeto Agrinho</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre Nós</a></li> 
+            <li><a href="campo.html">Oportunidades do Campo</a></li>
+            <li><a href="cidade.html">Oportunidades da Cidade</a></li>
+            <li><a href="integração.html">Integração</a></li>
+            <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="sobre">
+        <section class="banner">
+            <div class="banner-text">
+                <h1>Sobre Nós</h1>
+                <p>Bem-vindo ao <strong>Projeto Agrinho</strong>. Somos uma iniciativa dedicada a promover a integração entre áreas rurais e urbanas, criando pontes que conectam a tradição do campo com as inovações da cidade.</p>
+            </div>
+        </section>
+
+        <section class="missão">
+            <h2>Nossa missão</h2>
+            <p>Incentivar práticas sustentáveis e colaborativas que beneficiem tanto os agricultores quanto os moradores urbanos. Acreditamos que, ao unir forças, podemos construir um futuro mais próspero e equilibrado para todos.</p>
+        </section>
+    </main>
+
+    <div class="creator-section">
+        <h3>Criador do Projeto</h3>
+        <div class="creator-profile">
+            <div class="creator-photo"></div> 
+
+            <div class="creator-photo">
+                <img src="pedro.jpg" alt="Criador do Projeto" style="width: 150px; height: 150px; border-radius: 50%;">
+            </div>
+            
+
+            <div class="creator-info">
+                <h4>Pedro Henrique</h4>
+                <p>"Estou entusiasmado em liderar este projeto que conecta o campo e a cidade de maneira sustentável. Acredito que juntos, podemos fazer uma diferença significativa e criar um futuro melhor para todos."</p>
+            </div>
+
+            <section class="valores">
+                <h2>Nossos Valores</h2>
+                <p>No Projeto Agrinho, valorizamos a educação, a sustentabilidade e a colaboração. Convidamos você a se juntar a nós nessa jornada, explorando as inúmeras oportunidades que surgem quando o campo e a cidade se encontram.</p>
+            </section>
+
+    <footer id="contato">
+        <section class="contact-form">
+            <h2>Contato</h2>
+            <form action="envia-email.php" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        
+        <section class="contact-info">
+            <h2>Informações de Contato</h2>
+            <p>Email: contato@exemplo.com</p>
+            <p>Telefone: (00) 1234-5678</p>
+        </section>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Agrinho: Do Campo à Cidade - Colhendo Oportunidades</title>
+    <link rel="stylesheet" href="campo.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+
+      
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Projeto Agrinho</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre Nós</a></li> 
+            <li><a href="campo.html">Oportunidades do Campo</a></li>
+            <li><a href="cidade.html">Oportunidades da Cidade</a></li>
+            <li><a href="integração.html">Integração</a></li>
+            <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="campo">
+    
+        <section class="campo">
+            <div class="campo-text">
+                <h1>Tecnologia na Agricultura</h1>
+                <p>A tecnologia está revolucionando o setor agrícola. Desde o uso de drones para monitoramento das culturas até o desenvolvimento de softwares para gerenciamento, a inovação está permitindo uma produção mais eficiente e sustentável. As tecnologias emergentes estão ajudando os agricultores a melhorar o rendimento das colheitas, reduzir desperdícios e otimizar o uso dos recursos.</p>
+            </div>
+        </section>
+
+        <section class="práticas">
+            <div class="práticas-text">
+                <h1>Práticas Sustentáveis</h1>
+                <p>A rotação de culturas e a agricultura orgânica são exemplos de técnicas que não apenas preservam a saúde do solo, mas também reduzem o impacto ambiental. Essas práticas ajudam a criar um ambiente mais equilibrado e produtivo, beneficiando tanto a produção agrícola quanto a saúde do ecossistema.</p>
+            </div>
+        </section>
+
+        <section class="inovações">
+            <div class="inovações-text">
+                <h1>Inovações em Produção e Processamento</h1>
+                <p>Cultivos verticais e novas tecnologias de armazenamento estão mudando a forma como os alimentos são produzidos e preservados. Essas inovações permitem uma produção mais eficiente e menos dependente de grandes áreas de terra, além de prolongar a vida útil dos produtos.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contato">
+        <section class="contact-form">
+            <h2>Contato</h2>
+            <form action="envia-email.php" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        
+        <section class="contact-info">
+            <h2>Informações de Contato</h2>
+            <p>Email: contato@exemplo.com</p>
+            <p>Telefone: (00) 1234-5678</p>
+        </section>
+    </footer>
+</body>
+</html>
